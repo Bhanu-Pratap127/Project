@@ -1,0 +1,46 @@
+#page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    border-radius: 4px ;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#submit{
+    width:120px;  
+}
+
+.form{
+    margin: 8px;
+    padding-left: 7px;
+}
+
+#form{
+    /* border: 1px solid black; */
+    width: 30vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 33%;
+    /* padding: 15px; */
+    
+}
+
+body{
+    padding: 75px;
+}
+
+.error-message{
+    color: red;
+    font-size: 12px;
+}

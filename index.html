@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="form">
+    
+  <div id="page">
+    <form action="" id="validation">
+        <label for="email" style="padding-left: 10px;">Email</label>
+        <input style="margin-bottom:20px;" type="email" id="email" class="form" placeholder="Example@gmail.com" required>
+        <p id="email-err" class="error"></p>
+
+        <label for="password" style="padding-left: 10px;">Password</label>
+        <input type="password" class="form" id="pass" placeholder="Your Password" required>
+        <p id="pass-err" class="error"></p>
+        <p id="pass-success" class="success" style="display: none;">All good to go!</p>
+    </form>
+
+
+    <button id="submit" type="submit" style="margin:25px;">Submit</button>
+
+    </div> 
+
+</div>  
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
